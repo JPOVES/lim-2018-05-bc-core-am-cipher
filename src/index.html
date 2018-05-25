@@ -4,10 +4,45 @@
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" type="image/x-icon" href="imagenes/cc.ico">
   </head>
   <body>
-    <div id="root"></div>
+   <!--div id="root"></div-->
+   <div id="Titulo">
+    <!--h1>Caesar Cipher</hi-->
+   </div>
+   <nav>
+      <p>Ingresa tu mensaje:
+      </br>
+      <!--textarea id="mensajeingresado" placeholder="Escribe aquì"></textarea-->
+      <input type="text" placeholder="Escribe aquì" id="mensajeingresado"/>
+      </br>
+      <input type="button" value="Cifrar" id="Cifra"/>
+      <input type="button" value="Decifrar" id="Decifra"/>
+      </br>
+      </p>
+      </br>
+    </nav>
+    <nav>
+      <p>¿Cuàntos espacios deseas correr?:
+      </br>
+      <input type="text" placeholder="Escribe aquì un nùmero del 1 al 5" id="mensajeingresado"/>  
+      </br>
+    </nav>
+    <nav>
+      <p>El resultado de tu mensaje ingresado es:
+      </br>
+      <!--textarea id="resultadodemensajeingresado"></textarea-->
+      <input type="text" placeholder="Escribe aquì" id="mensajeprocesado"/>
+      </br>
+      </p>
+    </nav>
+    <script type="text.javascript"></script>
+    <!--estoy invocando cipher.js-->
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>
+  <footer>
+    <p>© Diseñado por <a target="_blank" href="https://es-la.facebook.com/"> Jessica Poves</a></p>
+  </footer>
 </html>

@@ -1,0 +1,71 @@
+body
+{
+    background:url(imagenes/matrix.jpg);
+    /*color: rgba(240, 241, 232, 0.938);*/
+    font-size: 30px;
+    }
+    /*tìtulo cifrado cesar*/
+   /* div h1
+    {
+        margin: 50px 200px;
+        width: 1000px;
+    }*/
+    /* ingreso de texto cidrado y decifrado*/
+    nav
+    {   
+        color: rgb(51, 26, 8);
+        background: #4fe928b9;
+        margin: 10px 400px;  
+        padding: 5px; 
+        border: 5px dotted #0e1016;
+        font-family:"GeoSlab703 Md BT"
+    }
+    /*diseño de pie de pàgina*/
+    footer{
+        width: 100%;
+        background: #000;
+        margin: 0em 0em 0em 0em;
+        margin-top:100%;
+        padding: 1em 0em;
+        font-family: "Agency FB";
+         }
+    //*.Cifra{
+     width: 100%;
+	background: #EC0044;
+	color: #fff;
+	border-radius: .4em;
+	padding: 1em 1em;
+	margin: 1em 0em;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+    }   
+    .Decifra{
+    width: 100%;
+	background: #EC0044;
+	color: #fff;
+	border-radius: .4em;
+	padding: 1em 1em;
+	margin: 1em 0em;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+    } */
+    footer{
+        width: 100%;
+        background: #000;
+        margin: 0em 0em 0em 0em;
+      margin-top:100%;
+        padding: 1em 0em;
+    }
+    footer p{
+        margin-left: 40%;
+        color: #fff;
+    
+    }
+    footer p a{
+        text-decoration: none;
+        color: rgb(6, 187, 60);
+    }

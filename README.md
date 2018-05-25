@@ -13,8 +13,7 @@ crear una aplicación que me permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo.
 
-![Sin titulo]
-(imagenes/fiestasorpresa.jpg)
+![Sin titulo](imagenes/fiestasorpresa.jpg)
 
 ## Introducción del mètodo utilizado
 

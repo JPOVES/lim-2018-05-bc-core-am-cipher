@@ -14,7 +14,6 @@
    <nav>
       <p>Ingresa tu mensaje:
       </br>
-      <!--textarea id="mensajeingresado" placeholder="Escribe aquì"></textarea-->
       <input type="text" placeholder="Escribe aquì" id="mensajeingresado"/>
       </br>
       <input type="button" value="Cifrar" id="Cifra"/>
@@ -32,15 +31,14 @@
     <nav>
       <p>El resultado de tu mensaje ingresado es:
       </br>
-      <!--textarea id="resultadodemensajeingresado"></textarea-->
-      <input type="text" placeholder="Escribe aquì" id="mensajeprocesado"/>
+      <input type="text" placeholder="Escribe aquì" id="mensajeprocesado" addEventListener="assign_prompt_value()"/>
       </br>
       </p>
     </nav>
     <script type="text.javascript"></script>
     <!--estoy invocando cipher.js-->
     <script src="cipher.js"></script>
-    <script src="index.js"></script>
+      <script src="index.js"></script>
   </body>
   <footer>
     <p>© Diseñado por <a target="_blank" href="https://es-la.facebook.com/"> Jessica Poves</a></p>

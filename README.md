@@ -106,7 +106,7 @@ Los programas que utilicè para el desarrollo de este proyecto fueron:
 1. Editor de texto [Code](https://code.visualstudio.com/).
 
 2. [git](https://github.com/Laboratoria/curricula-js/tree/v2.x/topics/scm/01-git)
-   [Git bash](https://git-scm.com/download/win),
+   [Git bash](https://git-scm.com/download/win)
   
  ## Pasos importantes realizados previos al desarrollo: 
 

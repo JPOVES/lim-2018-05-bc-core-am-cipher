@@ -13,8 +13,7 @@ crear una aplicación que me permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo.
 
-![Sin titulo]
-(imagenes/fiestasorpresa.jpg)
+![fiestaSorpresa](fotos/fiestasorpresa.jpg)
 
 ## Introducción del mètodo utilizado
 
@@ -23,30 +22,15 @@ primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado po
 sustitución en el que una letra en el texto original es reemplazada por otra
 letra que se encuentra un número fijo de posiciones más adelante en el alfabeto.
 
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-El emperador Julio César lo usaba para enviar órdenes a sus generales en los
-campos de batalla, es una de las técnicas más simples y más usadas para cifrar
-un mensaje.
-
-Por ejemplo si usáramos un desplazamiento de 3:
-
-* Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-* Alfabeto cifrado: D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
-
-Actualmente todos los cifrados de sustitución alfabética simple, se descifran
-con facilidad y en la práctica no ofrece mucha seguridad en la comunicación,
-pero el cifrado César muchas veces puede formar parte de sistemas más complejos
-de codificación, como el cifrado Vigenère, e incluso tiene aplicación en el
-sistema ROT13.
-
 ## Descripciòn de producto
 
 Los principales usuarios de mi producto son las personas invitadas a la Fiesta Sorpresa de Cumpleaños.
 
-El objetivo rincipal de estos usuarios en relación con el producto es:
+El objetivo principal de estos usuarios en relación con el producto es:
 
 Tener una conversaciòn fluida mediante el uso de mensajes de texto cifrados con el objetivo de planear la Fiesta Sorpresa de Cumpleaños.
+
+![planificandoFiesta](fotos/planificandoFiesta.jpg)
 
 La creaciòn de este aplicativo resuelve el problema de Evitar que el cumpleañero se entere de la Fiesta Sorpresa que le estàn organizando.
 
@@ -82,6 +66,10 @@ Para el diseño de la experiencia de usuario, investiguè y apliquè algunas
 de las técnicas y herramientas relacionadas al proceso de diseño como
 entrevistas y testeos con usuarios o sketching y prototipado.
 
+![testeo](fotos/testeoEquipo.jpg)
+
+![testeo](fotos/testeoterceros.jpg)
+
 ## Descripciòn del funcionamiento de la aplicaciòn
 
 Insertarmos el mensaje (texto) que queremos cifrar.Hacemos click en el bòton que describe la acciòn que deseamos realizar(cifrar).
@@ -95,6 +83,8 @@ el resultado del mensaje descifrado haciendo click en el botòn que describe la 
 En habilidades blandas,  realizé una planificación teniendo en consideración la utilización de herramientas de planificación, como
 un To do-Doing-Done, calendario,papelógrafo u otras,creando un plan paso a paso de cómo
 quise abarcar el reto. Realicè una estimación realista del tiempo.
+
+![habilidades](fotos/habilidades.jpg)
 
 ## Entrega
 
@@ -120,7 +110,7 @@ Los programas que utilicè para el desarrollo de este proyecto fueron:
 El video de Michelle que me llevò a través de la fórmula
 matemática del Cifrado César y un par de cosas más para resolver este proyecto.
 
-[![tips caesar cipher](https://img.youtube.com/vi/zd8eVrXhs7Y/0.jpg)](https://www.youtube.com/watch?v=zd8eVrXhs7Y)
+* https://www.youtube.com/watch?v=zd8eVrXhs7Y
 
 Utilicè información adicional del video que Michelle explicò :
 

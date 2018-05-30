@@ -4,13 +4,7 @@ body
     /*color: rgba(240, 241, 232, 0.938);*/
     font-size: 30px;
     }
-    /*tìtulo cifrado cesar*/
-   /* div h1
-    {
-        margin: 50px 200px;
-        width: 1000px;
-    }*/
-    /* ingreso de texto cidrado y decifrado*/
+
     nav
     {   
         color: rgb(51, 26, 8);
@@ -29,30 +23,7 @@ body
         padding: 1em 0em;
         font-family: "Agency FB";
          }
-    //*.Cifra{
-     width: 100%;
-	background: #EC0044;
-	color: #fff;
-	border-radius: .4em;
-	padding: 1em 1em;
-	margin: 1em 0em;
-	font-size: 18px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-    }   
-    .Decifra{
-    width: 100%;
-	background: #EC0044;
-	color: #fff;
-	border-radius: .4em;
-	padding: 1em 1em;
-	margin: 1em 0em;
-	font-size: 18px;
-	border: none;
-	outline: none;
-	cursor: pointer;
-    } */
+
     footer{
         width: 100%;
         background: #000;

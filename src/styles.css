@@ -15,6 +15,7 @@ h1{
 
 textarea {
     width: 400px;
+    text-transform: uppercase;
     height: 100px;
     margin: 10px 0 10px 0;
     background-color: rgba(86, 126, 228, 0.849);

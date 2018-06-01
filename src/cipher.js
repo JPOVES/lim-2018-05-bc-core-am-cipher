@@ -1,6 +1,6 @@
 window.cipher = {  
     encode: (offset, string) => {
-        let cifrado = " ";
+        let cifrado = '';
         offset = offset % 26;
         for(let i=0; i < string.length; i++){
           let abcAscii = string.charCodeAt(i);
@@ -18,7 +18,7 @@ window.cipher = {
       },
     
       decode: (offset, string) =>{
-        let descifrado = " ";
+        let descifrado = '' ;
         offset = offset % 26;
         for(let i=0; i < string.length; i++){
           let abcAscii = string.charCodeAt(i);

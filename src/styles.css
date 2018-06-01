@@ -1,23 +1,23 @@
 body{
-    color: rgb(250, 250, 220);
-    background-color: rgb(197, 55, 55);
+    color: rgb(243, 243, 237);
+    background-color: rgb(19, 4, 4);
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 h1{
-   color: rgb(71, 43, 43);
+   color: rgb(245, 237, 237);
    text-align: center;
-   text-transform: capitalize; 
+   text-transform:Verdana; 
+   font-size: 40px;
 }
 
 textarea {
     width: 400px;
     height: 100px;
-    text-transform: uppercase;
     margin: 10px 0 10px 0;
-    background-color: rgba(255, 127, 80, 0.74);
+    background-color: rgba(86, 126, 228, 0.849);
 }
 select {
     width: 100px;
@@ -28,11 +28,13 @@ section {
     padding: 20px;
 }
 div {
-    padding: 20px;
+    padding: 20px;    
 }
 input {
     padding: 4px;
     margin: 10px 0 10px 0;
+    border-radius: 8px;
+    background-color: rgba(229, 250, 40, 0.623);
 }
 #result {
     height: 250px;

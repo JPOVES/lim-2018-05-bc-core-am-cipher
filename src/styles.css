@@ -1,46 +1,75 @@
-body{
+body {
     color: rgb(243, 243, 237);
-    background-color: rgb(26, 3, 3);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-attachment: fixed;
+    background-color: #FFCD34;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-h1{
+h1 {
+   background: #ED242D;
    color: rgb(245, 237, 237);
    text-align: center;
-   text-transform:Verdana; 
-   font-size: 40px;
+   text-transform: Verdana; 
+   font-size: 60px;
 }
-
-textarea {
-    width: 400px;
-    height: 100px;
+.box1,.box3 {
+    background-color: #F37720;
+    width: 300px;
+    height: 205px;
+    margin: 5px 30px;
+    display: inline-block;
+}
+.box2 {
+    background-color: #F37720;
+    width: 300px;
+    height: 245px;
     margin: 10px 0 10px 0;
-    background-color: rgba(86, 126, 228, 0.849);
+    display: inline-block;
 }
-select {
-    width: 100px;
-}
-section {
-    margin: auto;
-    width: 90%;
-    padding: 20px;
+textarea {
+    width: 200px;
+    height: 150px;
+    margin: 10px 0 10px 0;
+    background-color: #F8F8F2;
+    font-size: 16px;
 }
 div {
-    padding: 20px;    
+    padding: 50px;            
+}
+#encode, #decode {
+background: #0080a4;
+display:inline-block;
+font-size:0.75em;
+margin:5px;
+padding:3px 0px;
+text-align:center;
+width:70px;
+text-decoration:none;
+box-shadow:0px 3px 0px #F8F8F2;
 }
 input {
     padding: 4px;
     margin: 10px 0 10px 0;
-    border-radius: 8px;
-    background-color: rgba(229, 250, 40, 0.623);
+    background-color: #F8F8F2;
 }
-#result {
-    height: 250px;
+.redSocial {
+    width:7%;
+    display:inline-block;
+    text-transform: Verdana; 
+}
+#result, #textForEncodeOrDecode {
+    display:inline-block;
+    width: 300px;
+    height: 150px;
+    margin: 10px 0px 80px 0px;
+    background-color: #F8F8F2;
 }
 footer {
    text-align: center;
-   text-transform: capitalize;    
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   height:40px;
+   width:100%;
+   background-color:rgba(153, 153, 153, 0.548);
+   color: rgba(17, 6, 7, 0.644)
 }
-   
+  

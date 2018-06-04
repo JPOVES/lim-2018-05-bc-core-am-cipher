@@ -2,7 +2,7 @@
 
 ## Preámbulo del reto
 
-Está próxima la fecha del cumpleaños de tu enamorado y estoy organizando una
+Está próxima la fecha del cumpleaños de mi enamorado y estoy organizando una
 fiesta sorpresa. Para organizar la fiesta he creado un grupo de Whatsapp junto
 con amigos y familiares.
 
@@ -13,11 +13,9 @@ crear una aplicación que me permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo.
 
-<<<<<<< HEAD
 ![fiestaSorpresa](fotos/fiestasorpresa.jpg)
 =======
-![Sin titulo](imagenes/fiestasorpresa.jpg)
->>>>>>> c71c69942fa7a03422ca380fb7981c1d05f07c58
+
 
 ## Introducción del mètodo utilizado
 
@@ -65,22 +63,25 @@ como toda la configuración de dependencias y tests de ejemplo:
 
 
 ## Diseño de experiencia de usuario
-
+<div class=text-justify>
 Para el diseño de la experiencia de usuario, investiguè y apliquè algunas
 de las técnicas y herramientas relacionadas al proceso de diseño como
 entrevistas y testeos con usuarios o sketching y prototipado.
 
 ![testeo](fotos/testeoEquipo.jpg)
-
+![testeo](fotos/testeo1.jpg)
 ![testeo](fotos/testeoterceros.jpg)
 
 ## Descripciòn del funcionamiento de la aplicaciòn
 
-Insertarmos el mensaje (texto) que queremos cifrar.Hacemos click en el bòton que describe la acciòn que deseamos realizar(cifrar).
+![testeo](fotos/cifradocesar.jpg)
+Para utilizar el Cifrado César accedemos al grupo d whatsapp creado,luego insertarmos el mensaje (texto) que queremos cifrar.Hacemos click en el bòton que describe la acciòn que deseamos realizar(cifrar).
 Luego obtenemos el mensaje cifrado.
 
 Ademàs de ello podemos insertar un mensaje (texto) a descifrar para luego proceder a visualizar
 el resultado del mensaje descifrado haciendo click en el botòn que describe la acciòn a realizar (desifrar).
+
+Asì mismo si el usuario desea ingresar otro texto,deberá realizar un F5 a la página o volver a cargarla si esta en su móvil.
 
 ## Desarrollo de habilidades blandas
 
@@ -88,7 +89,7 @@ En habilidades blandas,  realizé una planificación teniendo en consideración 
 un To do-Doing-Done, calendario,papelógrafo u otras,creando un plan paso a paso de cómo
 quise abarcar el reto. Realicè una estimación realista del tiempo.
 
-![habilidades](fotos/habilidades.jpg)
+![Planificaciòn](fotos/postit.jpeg)
 
 ## Entrega
 
@@ -122,8 +123,10 @@ Utilicè información adicional del video que Michelle explicò :
 * [Aprende más sobre `String.fromCharCode()`](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/String/fromCharCode)
 * [Aprende más sobre `ASCII`](http://conceptodefinicion.de/ascii/)
 * [Documentación de NPM](https://docs.npmjs.com/)
+* [Aprende más sobre `TEST`](http://www.chaijs.com/api/bdd/)
+* [Aplica `BIBLIOTECAS CC`](https://color.adobe.com/)
 
 
 ## Absolviendo dudas 
 
-Gracias al [sli.do](https://www.sli.do/) pude resolver varias dudas en clase que tenìa durante el desarrollo de mi producto.
+Gracias al [sli.do](https://www.sli.do/) pude resolver varias dudas en clase que tenìa durante el desarrollo de mi proyecto.

@@ -45,5 +45,16 @@ describe('cipher', () => {
     it('debería retornar un objeto con dos funciones (encode y decode) con offset fijado');
 
   });
-
 });
+
+/*createCipherWithOffset : (offset) => {
+    let exit = {
+      encode: (string) => {
+        return cipher.encode(offset,string);
+      },
+      decode: (string) => {
+        return cipher.decode(offset,string);
+      },
+  },
+  return exit;   
+ }, */   

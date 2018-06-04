@@ -1,45 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset = "utf-8" />
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="imagenes/cc.ico">
+    <link rel = "stylesheet" href = "styles.css">
+    <link rel = "shortcut icon" type = "image/x-icon" href = "imagenes/cc.ico">
 </head>
-
 <body>
     <section>
-        <h1>Caesar Cipher</h1>
-        <hr>
-        <div style="float:left;">
-            <label>Ingresa tu texto aquì:</label>
+        <h1>¡Que empiece la diversión!</h1>
+        <br>
+        <div class="box1">
+            <label>Ingresa tu texto aquí:</label>
             <br>
-            <textarea name="" id="textForEncodeOrDecode" placeholder="Escribe aquì:"></textarea>
+            <textarea name = "" id = "textForEncodeOrDecode" placeholder ="Escribe aquì:"></textarea>
             <br>
         </div>
-        <div style="float:left;">
-            <label>Elige el nùmero de espacios:</label>
+        <div class="box2">
+            <label>Inicia tu conversación ahora:</label>
             <br>
-            <input type="number" id="offset" min="0" value=" ">
+            <a href="https://web.whatsapp.com/" target="_blank"><img class="redSocial" src="http://i66.tinypic.com/2vhzkwn.jpg" border="0" alt="Image and video hosting by TinyPic">whatsapp</a>
+            <br><br>
+            <label>Elige el número de espacios:</label>
             <br>
-            <label>Elige una opciòn:</label>
+            <input type = "number" id = "offset" min = "0" value = " ">
+            <br><br>
+            <label>Elige una opción:</label>
             <br>
-            <button type="submit" id="encode" value=" ">Cifrar</button>
+            <button type = "submit" id = "encode" value = " ">Cifrar</button>
             <br>
-            <button type="submit" id="decode" value=" ">Descifrar</button>
+            <button type = "submit" id = "decode" value = " ">Descifrar</button>
+            <br><br>
         </div>
-        <div>
-            <label>Resultado:</label><br>
-            <textarea name=" " id="result" readonly></textarea>
-            </div>
+        <div class="box3">
+            <label>Tu texto modificado es:</label><br>
+            <textarea name =" " id="result" readonly></textarea>
+        </div>
     </section>
-    <script type="text/javascript" src="cipher.js"></script>
-    <script type="text/javascript" src="index.js"></script>
+    <script type = "text/javascript" src = "cipher.js"></script>
+    <script type = "text/javascript" src = "index.js"></script>
 </body>
-
 <footer>
-    <p>© Diseñado por <a target="_blank" href="https://es-la.facebook.com/"> Jessica Poves - Laboratoria</a></p>
-  </footer>
-
+    <p>© Diseñado por <a target = "_blank" href = "https://es-la.facebook.com/"> Jessica Poves </a>- LABORATORIA</p>
+</footer>
 </html>
 

@@ -66,11 +66,18 @@ como toda la configuración de dependencias y tests de ejemplo:
 <div class=text-justify>
 Para el diseño de la experiencia de usuario, investiguè y apliquè algunas
 de las técnicas y herramientas relacionadas al proceso de diseño como
-entrevistas y testeos con usuarios o sketching y prototipado.
+entrevistas y testeos con usuarios. 
 
 ![testeo](fotos/testeoEquipo.jpg)
 ![testeo](fotos/testeo1.jpg)
-![testeo](fotos/testeoterceros.jpg)
+![](fotos/testeoterceros.jpg)
+
+Asì como sketching y prototipado.
+
+![sketch1](fotos/sketch1.jpg)
+![sketch2](fotos/sketch2.jpg)
+![sketch3](fotos/sketch3.jpg)
+![sketch4](fotos/sketch4.jpg)
 
 ## Descripciòn del funcionamiento de la aplicaciòn
 
